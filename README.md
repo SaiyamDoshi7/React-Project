@@ -155,9 +155,15 @@ No external API or database is used.
 
 <img width="1907" height="952" alt="Screenshot 2026-04-23 152208" src="https://github.com/user-attachments/assets/f475e4fb-1ae0-4215-9434-c9527535bada" />
 
+
+
 <img width="1908" height="947" alt="Screenshot 2026-04-23 152118" src="https://github.com/user-attachments/assets/11d08ad7-382f-430d-b3d0-94f09f6a24b2" />
 
+
+
 <img width="1907" height="946" alt="Screenshot 2026-04-23 152135" src="https://github.com/user-attachments/assets/970330f0-62d3-49d6-a2df-be1305cd30ec" />
+
+
 
 <img width="1907" height="952" alt="Screenshot 2026-04-23 152208" src="https://github.com/user-attachments/assets/0ecbe23b-ad07-48b0-ad7d-1c29106492a8" />
 
