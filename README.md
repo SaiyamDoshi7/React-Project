@@ -1,16 +1,152 @@
-# React + Vite
+# 📘 Student Management System (React + Redux + Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This project is a **Student Management System** built using **React JS, Redux, and Bootstrap**.
+It allows users to **manage student records** with full CRUD operations and authentication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User Login Authentication (Username & Password)
+* 📊 Dashboard with total student count
+* ➕ Add new student
+* 📋 View student list
+* ✏️ Edit student details
+* ❌ Delete student
+* 🔍 Search students
+* 💾 Data stored in LocalStorage (persistent after refresh)
+* 🚪 Logout functionality
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React JS (Vite)
+* Redux & Redux Thunk
+* React Router DOM
+* Bootstrap 5
+* LocalStorage (for data persistence)
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── PrivateRoute.jsx
+|   ├── StudentCard.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── StudentList.jsx
+│   ├── StudentForm.jsx
+│   ├── Login.jsx
+│
+├── redux/
+│   ├── store.js
+│   ├── studentReducer.js
+│   ├── studentActions.js
+│
+├── services/
+│   ├── api.js   (dummy file for structure)
+│
+├── assets/
+│   ├── styles.css
+│
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## 🔑 Login Credentials
+
+Use the following credentials to login:
+
+```
+Username: admin
+Password: 1234
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-link>
+```
+
+2. Navigate to project folder:
+
+```bash
+cd student-dashboard
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 💾 Data Storage
+
+* All student data is stored in **browser LocalStorage**
+* Data remains saved even after page refresh
+* No backend or database required
+
+---
+
+## 📸 Screens Included
+
+* Login Page
+* Dashboard
+* Student List
+* Add Student Form
+
+---
+
+## 🎯 Purpose of Project
+
+This project is created for:
+
+* 📚 Academic / Practical Exam
+* 💡 Understanding React + Redux workflow
+* 🧠 Learning CRUD operations without backend
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates:
+
+* Component-based architecture
+* State management using Redux
+* Routing with authentication
+* Clean UI using Bootstrap
+
+---
+
+## 👨‍💻 Author
+
+**Saiyam Doshi**
+
+---
+
+## ⭐ Note
+
+This is a **frontend-only project** using LocalStorage.
+No external API or database is used.
