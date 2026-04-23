@@ -150,3 +150,13 @@ This project demonstrates:
 
 This is a **frontend-only project** using LocalStorage.
 No external API or database is used.
+
+## Screenshot
+
+[!screenshot-project]()
+
+[!screenshot-project]()
+
+[!screenshot-project]()
+
+[!screenshot-project]()
